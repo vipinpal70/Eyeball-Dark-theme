@@ -1,0 +1,37 @@
+{
+  "name": "eyeball-dark",
+  "displayName": "Eyeball Dark",
+  "description": "A clean, eye-friendly dark theme for developers.",
+  "version": "0.0.1",
+  "publisher": "vipinpal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vipinpal70/Eyeball-Dark-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "theme",
+    "eye-friendly",
+    "minimal"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Eyeball Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eyeball-dark.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[eyeball dark]": {
+        "editor.minimap.enabled": false
+      }
+    }
+  }
+}
